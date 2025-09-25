@@ -1,3 +1,11 @@
+/*Task: 
+
+Write a Java program that reads a number and prints the first digit, last digit, their addition, in the format:
+<firstdigit><lastdigit>--<firstdigit>+<lastdigit>--<sum>
+
+Example:
+Input: : 12345
+Output: :6*/
 public class Number{
 	public static void main(String args[]){
 		int num=12345;
@@ -19,4 +27,5 @@ public class Number{
 		System.out.println("Sum of Last and First Digits  "+sum);
 
 	}
+
 }
